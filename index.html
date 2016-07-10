@@ -6,8 +6,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<style>
+    #contentEdit {
+        text-align: center;
+        padding: 50px;
+        font-size: 25px;
+    }
+</style>
    
-   <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem vero repellendus, repudiandae molestiae pariatur quidem atque corporis aspernatur. Quasi, quisquam.</p>
-    
+   <div id="contentEdit" ondblclick="makeEditable(this)" onblur="makeReadOnly(this)">
+   Text that you can change...
+   </div>
+   
 </body>
+<script src="content.js"></script>
 </html>
